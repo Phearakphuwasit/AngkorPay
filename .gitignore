@@ -1,10 +1,25 @@
-# Node.js
+# Node
 node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Next.js
+.next/
+out/
+.vercel/
+
+# Environment
 .env
 .env.local
 .env.production
+.env.development
+
+# OS & editor
 .DS_Store
-dist/
-build/
-.next/
 .vscode/
+.idea/
+
+# Logs
+logs
+*.log
